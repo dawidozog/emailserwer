@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="763.0" prefWidth="1184.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windows.LoginWindowController">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="853.0" layoutY="686.0" mnemonicParsing="false" onAction="#loginActionPerformed" text="Send" />
+      <Label layoutX="844.0" layoutY="113.0" text="Recepients" />
+      <TextArea fx:id="recipients" layoutX="632.0" layoutY="152.0" prefHeight="493.0" prefWidth="496.0" />
+      <TextArea fx:id="content" layoutX="35.0" layoutY="152.0" prefHeight="493.0" prefWidth="533.0" />
+      <Label layoutX="253.0" layoutY="113.0" text="Content" />
+      <TextField fx:id="topic" layoutX="32.0" layoutY="61.0" prefHeight="31.0" prefWidth="539.0" />
+      <Label layoutX="262.0" layoutY="22.0" text="Topic" />
+      <Button layoutX="232.0" layoutY="686.0" mnemonicParsing="false" onAction="#addAttachment" text="Attachment" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Okno_KonfiguratorF7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Okno_KonfiguratorF7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
